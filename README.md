@@ -1,5 +1,6 @@
 # Reverse Engineering for Beginners
-![RE4B-cover](RE4B-cover.png)
+> 
+![RE4B-cover](./RE4B-covers.png)
 ## Chapter 1
 
 The simple function
@@ -48,76 +49,13 @@ f:
 - MIPS
 ```assembly
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+``` 
 ## Chapter 2
+>
+
 2.1 Void function
-The simple function that you can write in C is  
+The simple function that you can write in C is
+  
 ```C
 void f()
 {
