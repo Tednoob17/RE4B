@@ -65,9 +65,9 @@ void f()
 >
 
 compile this code
-You can compile with [https://godbolt.org/](godbolt)
+You can compile with [godbolt](https://godbolt.org/)
 	Or 
-You can use [https://dogbolt.org/](dogbolt)
+You can use [dogbolt](https://dogbolt.org/)
 
 > Output:
 - ARM platform:
