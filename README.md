@@ -6,6 +6,10 @@ The simple function
 >
 C/C++ Code
 
+```bash
+touch 1_test.c && 1_test.c
+```
+
 ```C/C++
 int f()
 {
@@ -22,11 +26,27 @@ f:
 	mov	eax, 123
 	ret
 ```
+- x86_64
+``` bash
+gcc 1_test.c -S
+```
+
+```assembly
+f:
+	pushq	%rbp
+	movq	%rsp, %rbp
+	movl	$123, %eax
+	popq	%rbp
+	ret
+```
 
 
+- ARM
+```assembly
 
-
-
+```
+- MIPS
+```assembly
 
 
 
