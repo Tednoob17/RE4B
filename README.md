@@ -1,5 +1,5 @@
 # Reverse Engineering for Beginners
-
+![RE4B-cover](RE4B-cover.png)
 ## Chapter 1
 
 The simple function
