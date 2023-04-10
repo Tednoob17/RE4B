@@ -1,6 +1,6 @@
 # Reverse Engineering for Beginners
 > 
-![RE4B-cover](./RE4B-covers.png)
+![RE4B-cover](./.img/RE4B-covers.png)
 ## Chapter 1
 
 >
