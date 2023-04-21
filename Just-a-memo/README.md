@@ -9,16 +9,16 @@ Here after thhat we started we must prepare some things (environment).Personnaly
 1- Install nasm
 > For Debian/Ubuntu 
 ```bash
-	sudo apt install nasm
+sudo apt install nasm
 ```
 
 ```bash
-	nasm -v
+nasm -v
 ```
 > Stdout
 
 ```bash
-	NASM version 2.14
+NASM version 2.14
 ```
 >> Begin 
 
@@ -26,7 +26,7 @@ When tou write a simple C code like this
 ```c
 #include <stdio.h>
 
-int main() {
+int main(void) {
 	printf("JoJo Bizarre Adventure is cool\n");
   return 0;
 }
@@ -44,7 +44,7 @@ The data section is used to deckare a constant variable (who can't change when t
 The Syntax for this section is :
 
 ```asm
-	section .data
+section .data
 ```
 The text section is for code .This section begin after declaration of `global _start` (he tells the kernel where te execution program begin)
 
@@ -64,7 +64,7 @@ The fisrt command is the name of instruction who must be executed and the second
 
 
 ```asm
-	MOV COUNT, 48 ; Put value 48 in the COUNT variable
+MOV COUNT, 48 ; Put value 48 in the COUNT variable
 ``` 
 
 ### Hello world
