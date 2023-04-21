@@ -53,13 +53,22 @@ The text section is for code .This section begin after declaration of `global _s
 	global _start
 	_start:
 ```
+In nasm comment start with `;` and all struction can be write like that 
+
+`[label:] instruction [operands] [; comment]`
+
+A  part in a braces can be ignored (it's optional)
+The fisrt command is the name of instruction who must be executed and the second is the operand of this command.
 
 
 
 
+```asm
+	MOV COUNT, 48 ; Put value 48 in the COUNT variable
+``` 
 
-
-
+### Hello world
+Let's write The legendary Hello World in assembly
 
 
 
