@@ -1,11 +1,11 @@
 ## Just Memo
 
-** This Lab Instroduction is Inspired by ** [0xax](https://0xax.github.io/asm_1/)
+   This Lab Instroduction is Inspired by  [0xax](https://0xax.github.io/asm_1/)
 
 Here after thhat we started we must prepare some things (environment).Personnaly i use one Unix-Like Os Family (Pop!_OS) v 21.04 
 64bits who is `ubuntu debian` distro ,so all Linux distro based from debian can walk here.
 
-> 
+
 1- Install nasm
 > For Debian/Ubuntu 
 ```bash
@@ -20,7 +20,7 @@ nasm -v
 ```bash
 NASM version 2.14
 ```
->> Begin 
+> Begin 
 
 When tou write a simple C code like this
 ```c
@@ -57,10 +57,9 @@ In nasm comment start with `;` and all struction can be write like that
 
 `[label:] instruction [operands] [; comment]`
 
+
 A  part in a braces can be ignored (it's optional)
 The fisrt command is the name of instruction who must be executed and the second is the operand of this command.
-
-
 
 
 ```asm
